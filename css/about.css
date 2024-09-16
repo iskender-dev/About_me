@@ -1,0 +1,141 @@
+#about-me {
+    width: 350px;
+    justify-content: right;
+    margin-left: 200px;
+    border-radius: 50px;
+    filter: drop-shadow(10px 0px 5px black);
+    background-color: #00273847;
+}
+
+#about-me:hover {
+    transform: scale(1.05);
+}
+
+#about-me-text {
+    display: flex;
+    justify-content: left;
+    margin-right: 300px;
+}
+
+#about-me-screen {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#about-me-details-info {
+    background-color: #00273847;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding: 100px;
+    border-radius: 40px;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-size: 30px;
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+dd {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+  
+
+
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+
+header {
+    /* background-color: rgba(0, 139, 139, 0.697); */
+    background-color: #00273884;
+    padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+}
+
+header p {
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    margin-right: 70px;
+}
+
+header ul li {
+    font-size: 20px;
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+li:hover {
+    color: white ;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 150px
+}
+
+#portfolio {
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #00273884;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+
+

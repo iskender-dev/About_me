@@ -1,0 +1,148 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    background-color: #0027389e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+
+
+
+header {
+    /* background-color: rgba(0, 139, 139, 0.697); */
+    background-color: #0027389e;
+    padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+}
+
+header p {
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    margin-right: 70px;
+}
+
+header ul li {
+    font-size: 20px;
+    margin: 0 1rem;
+    /* color: white; */
+}
+
+header ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+#li:hover {
+    color: white ;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 150px
+}
+
+#portfolio {
+    font-style: italic;
+    font-size: 20px;
+    /* color: white; */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.gallery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.gallery-item img, .gallery-item video {
+    width: 45%;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+.gallery-item img:hover, .gallery-item video:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item .description {
+    width: 45%;
+    padding: 20px;
+    background-color: #00273837;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 30px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+.gallery-item.reversed {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .gallery-item, .gallery-item.reversed {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-item img, .gallery-item video, .gallery-item .description {
+        width: 80%;
+    }
+
+    .gallery-item .description {
+        margin-top: 20px;
+    }
+}
+
+#footer-text {
+    font-size: medium;
+    color: black;
+}
